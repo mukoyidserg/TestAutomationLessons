@@ -1,0 +1,15 @@
+Class: 
+"NonFoodGoods"
+
+Inherits class: 
+"CustomerGoods"
+
+
+New attributes: 
+1. Precautions (many non-food goods are chemicals)
+2. Supplier return policy
+3. Turnover level (e.g. fast or low turnover)
+
+New methods:
+1. Public: find out the necessary precautions
+2. Private: fall in sales

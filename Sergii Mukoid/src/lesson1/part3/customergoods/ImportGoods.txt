@@ -1,0 +1,15 @@
+Class: 
+"ImportGoods"
+
+Inherits class: 
+"CustomerGoods"
+
+
+New attributes: 
+1. Foreign wholesale distributor (i.e. intermediary company)
+2. Import regulations (e.g. necessary papers)
+3. Time to delivery (order-to-shipment, days)
+
+New methods:
+1. Public: choose a distributor of goods to work with
+2. Private: fail to be delivered in time

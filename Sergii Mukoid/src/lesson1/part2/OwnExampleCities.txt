@@ -1,0 +1,28 @@
+Class: 
+"Cities"
+
+Attributes: 
+1. Population
+2. Area
+3. City's gross domestic product (GDP)
+4. Number of divisions
+5. Year of founding
+6. Country
+7. Name
+8. Elevation (above the sea level, in meters)
+9. Population growth rate
+10. Population density
+
+Public methods:
+1. Change number of divisions
+2. Introduce utilities
+3. Introduce public transport
+4. Facilitate population increase
+5. Defend city from invaders (preserving city's country)
+
+Private methods:
+1. Change population size
+2. Change area size
+3. Develop economy (leading to GDP growth)
+4. Come into decay 
+5. Change country

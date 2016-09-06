@@ -1,0 +1,15 @@
+Class: 
+"FarmPrison"
+
+Inherits class: 
+"Prisons"
+
+
+New attributes: 
+1. Type of work (e.g. agricultural)
+2. Convict leasing (whether prisoners may be leased for employment to private contractors)
+3. Labour goal (mainly for prison use or other facilities)
+
+New methods:
+1. Public: change distribution of work products
+2. Private: sign leasing contracts

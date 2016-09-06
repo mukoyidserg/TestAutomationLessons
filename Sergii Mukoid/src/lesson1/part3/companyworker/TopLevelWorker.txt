@@ -1,0 +1,15 @@
+Class: 
+"TopLevelWorker"
+
+Inherits class: 
+"CompanyWorker"
+
+
+New attributes: 
+1. Sphere of management (i.e. type of operations supervised)
+2. Additional renumeration
+3. Projects managed 
+
+New methods:
+1. Public: Increase additional renumeration
+2. Private: Fire some of the subordinates

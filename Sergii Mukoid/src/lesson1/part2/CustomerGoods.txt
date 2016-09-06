@@ -1,0 +1,28 @@
+Class: 
+"CustomerGoods"
+
+Attributes: 
+1. Product shelf life
+2. Expiration date
+3. Price
+4. Package size
+5. Edibility (edible or not)
+6. Packing quantity
+7. Ingredients
+8. Country of origin
+9. Maximum storage temperature
+10. Weight
+
+Public methods:
+1. View the ingredients
+2. Consume the product
+3. Open the package
+4. Close the package
+5. Throw away the product
+6. Buy the product
+7. Return the product
+8. Change product price
+
+Private methods:
+1. Expire beyond shelf life
+2. Disintegrate under physical pressure

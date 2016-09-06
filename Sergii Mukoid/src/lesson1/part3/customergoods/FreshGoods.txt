@@ -1,0 +1,15 @@
+Class: 
+"FreshGoods"
+
+Inherits class: 
+"CustomerGoods"
+
+
+New attributes: 
+1. Type of goods (e.g. vegetables, milk products)
+2. Freshness percentage (percentage of shelf life left before shipment to the store)
+3. Delivery type (cross-docked (supplier-to-store shipment) or stored (supplier-warehouse-store))
+
+New methods:
+1. Public: agree new freshness percentage with the supplier
+2. Private: lose marketable condition

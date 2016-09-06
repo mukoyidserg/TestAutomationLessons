@@ -1,0 +1,15 @@
+Class: 
+"OpenPrison"
+
+Inherits class: 
+"Prisons"
+
+
+New attributes: 
+1. Employment (whether inmates may be employed while imprisoned)
+2. Recreational facilities
+3. Reintegration programs
+
+New methods:
+1. Public: allow inmates' employment
+2. Private: open or close recreational facilities

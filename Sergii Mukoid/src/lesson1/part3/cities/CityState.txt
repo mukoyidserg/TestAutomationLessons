@@ -1,0 +1,15 @@
+Class: 
+"CityState"
+
+Inherits class: 
+"Cities"
+
+
+New attributes: 
+1. Sovereignty (some city-states, e.g. Gibraltar lack full sovereignty)
+2. Currency
+3. Number of constituing separate cities (under some definitions city-states may actually include more than one city)
+
+New methods:
+1. Public: give sovereignty to the city-state
+2. Private: add another city to the city-state

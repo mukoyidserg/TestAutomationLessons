@@ -1,0 +1,15 @@
+Class: 
+"TabletComputer"
+
+Inherits class: 
+"TouchScreenDevice"
+
+
+New attributes: 
+1. Physical keyboard presence
+2. Size class
+3. Handwriting recognition feature
+
+New methods:
+1. Public: Buy a physical keyboard
+2. Private: Recognize handwriting

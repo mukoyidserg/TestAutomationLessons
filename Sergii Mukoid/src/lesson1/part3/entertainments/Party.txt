@@ -1,0 +1,15 @@
+Class: 
+"Party"
+
+Inherits class: 
+"Entertainments"
+
+
+New attributes: 
+1. Admission (free or for a price)
+2. Alcohol consumption volume
+3. Venue
+
+New methods:
+1. Public: declare an alcohol-free party
+2. Private: start admitting free guests to a paid party and vice versa

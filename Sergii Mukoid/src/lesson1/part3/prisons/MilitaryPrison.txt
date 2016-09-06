@@ -1,0 +1,15 @@
+Class: 
+"MilitaryPrison"
+
+Inherits class: 
+"Prisons"
+
+
+New attributes: 
+1. Purpose (actual prison or prisoner-of-war camp)
+2. Operating army branch
+3. Operation (permanent or temporary)
+
+New methods:
+1. Public: repurpose a prison
+2. Private: accept different types of inmates

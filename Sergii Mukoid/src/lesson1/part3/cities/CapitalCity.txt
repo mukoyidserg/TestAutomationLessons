@@ -1,0 +1,15 @@
+Class: 
+"CapitalCity"
+
+Inherits class: 
+"Cities"
+
+
+New attributes: 
+1. Administrative independence (whether the city is a part of a higher-level administrative unit or not)
+2. State (whether the city is a sovereigh state or not)
+3. Seat of government (whether the city is only an official or an administrative capital too)
+
+New methods:
+1. Public: move the government in/out of the city
+2. Private: gain independence

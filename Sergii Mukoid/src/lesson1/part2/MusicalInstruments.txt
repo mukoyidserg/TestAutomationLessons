@@ -1,0 +1,28 @@
+Class: 
+"MusicalInstruments"
+
+Attributes: 
+1. Instrument class (e.g. string or percussion)
+2. Musical range (e.g. bass or soprano)
+3. Materials (e.g. wood or brass)
+4. Instrument type (electronic or acoustic)
+5. Maximum unamplified loudness
+6. Size
+7. Year of making
+8. Tuning
+9. Maker (a particular person or a company)
+10. Weight
+
+Public methods:
+1. Tune the instrument
+2. Interact with the instrument to produce sound
+3. Clean the instrument
+4. Pack the instrument 
+5. Disassemble the instrument
+
+Private methods:
+1. Produce sound 
+2. Change sound (when tuned)
+3. Lose tuning (over time)
+4. Change loudness (depending on the interacting force)
+5. Become dirty

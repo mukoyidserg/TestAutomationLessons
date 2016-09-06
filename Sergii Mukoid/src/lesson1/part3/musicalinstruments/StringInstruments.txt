@@ -1,0 +1,15 @@
+Class: 
+"StringInstruments"
+
+Inherits class: 
+"MusicalInstruments"
+
+
+New attributes: 
+1. Number of strings
+2. String material
+3. String location (i.e. harps, lutes or zithers)
+
+New methods:
+1. Public: Pluck the strings
+2. Private: Lose tuning on one string
