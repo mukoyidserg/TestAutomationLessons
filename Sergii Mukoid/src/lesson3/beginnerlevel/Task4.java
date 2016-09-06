@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.beginnerlevel;
 
 public class Task4 {
 	public int numberQuantity(int[] array, int x) {

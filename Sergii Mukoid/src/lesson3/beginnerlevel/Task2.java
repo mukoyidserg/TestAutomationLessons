@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.beginnerlevel;
 
 public class Task2 {
 	public boolean checkTwoNumbers(int x, int y) {

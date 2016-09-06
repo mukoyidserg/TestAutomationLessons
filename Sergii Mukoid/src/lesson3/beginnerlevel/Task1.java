@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.beginnerlevel;
 
 public class Task1 {
 	int[] myArray = {1,2,3};

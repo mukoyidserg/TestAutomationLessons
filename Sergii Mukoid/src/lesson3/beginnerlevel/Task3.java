@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.beginnerlevel;
 
 public class Task3 {
 public boolean checkMultiple(int x) {
