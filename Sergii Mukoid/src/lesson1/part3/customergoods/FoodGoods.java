@@ -3,6 +3,17 @@ public class FoodGoods extends CustomerGoods {
                                 private boolean Packing;
                                 public boolean Label;
                                 private String Turnover;
-private void Spoil() {}
-public boolean ChangeLabel (boolean NewLabel) {Label = NewLabel}  
+public boolean getPacking() {return Packing;}
+public void setPacking (boolean Packing) {
+	this.Packing = Packing;
+} 
+public boolean getLabel() {return Label;}
+public void setLabel (boolean Label) {
+	this.Label = Label;
+}
+public String getTurnover() {return Turnover;}
+public void setTurnover (int Turnover) {
+	this.Turnover = Turnover;
+}
+
 }
