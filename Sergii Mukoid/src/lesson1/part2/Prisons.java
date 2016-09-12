@@ -2,25 +2,56 @@ package lesson1.part2;
 
 
 public class Prisons {
-public int Inmates;
-                                public int Guards;
-                                public String Security;
-                                public int Units;
+                                private int Inmates;
+                                private int Guards;
+                                private String Security;
+                                private int Units;
                                 private String Type;
                                 private String Facilities;
-                                public boolean Operation;
+                                private boolean Operation;
                                 private String Location;
-                                public String Institution;
+                                private String Institution;
                                 private boolean Legality;
-private int InmEscape (int NewInm) {Inmates = NewInm;}
-private int AddGuards (int NewGuard) {Guards = NewGuard;}
-private String ChangeLegal (string NewLegal) {Legality = NewLegal;}
-private String ChangeOps (string NewOps) {Operation = NewOps;}
-public int AddInm (int AdditInm) {Inmates = AdditInm;}
-public int ChangeGuards (int ChngGuard) {Guards = ChngGuard;}
-public int AddUnits (int NewGuard) {Guards = NewGuard;}
-public String ChangeSec (String NewSec) {Security = NewSec;}
-public String ClosePr (String CloseOps) {Operation = CloseOps;}
-public String ChangeInst (String NewInst) {Institution = NewInst;}
+public int getInmates() {return Inmates;}
+public void setInmates (int Inmates) {
+	this.Inmates = Inmates;
+}
+public int getGuards() {return Guards;}
+public void setGuards (int Guards) {
+	this.Guards = Guards;
+}
+public String getSecurity() {return Security;}
+public void setSecurity (int Security) {
+	this.Security = Security;
+}
+public int getUnits() {return Units;}
+public void setUnits (int Units) {
+	this.Units = Units;
+}
+public String getType() {return Type;}
+public void setType (String Type) {
+	this.Type = Type;
+}
+public String getFaciilities() {return Facilities;}
+public void setFacilities (String Facilities) {
+	this.Facilities = Facilities;
+}
+public boolean getOperation() {return Operation;}
+public void setOperation (String Operation) {
+	this.Operation = Operation;
+}
+public String getLocation() {return Location;}
+public void setLocation (String Location) {
+	this.Location = Location;
+}
+public String getInstitution() {return Institution;}
+public void setInstitution (String Institution) {
+	this.Institution = Institution;
+}
+public boolean getLegality() {return Legality;}
+public void setLegality (boolean Legality) {
+	this.Legality = Legality;
+}
+
 }
 
