@@ -2,7 +2,18 @@
 public class SmartPhone extends TouchScreenDevice {
                                 private int SimCards;
                                 private String Standards;
-                                public String Restrictions;
-private void ReceiveCalls()
-public String Jailbreak (String NewRestr) {Restrictions = NewRestr}  
+                                private String Restrictions;
+public int getSimCards() {return SimCards;}
+public void setSimCards (int SimCards) {
+	this.SimCards = SimCards;
+} 
+public String getStandards() {return Standards;}
+public void setStandards (String Standards) {
+	this.Standards = Standards;
+}
+public String getRestrictions() {return Restrictions;}
+public void setRestrictions (String Restrictions) {
+	this.Restrictions = Restrictions;
+}
+
 }
