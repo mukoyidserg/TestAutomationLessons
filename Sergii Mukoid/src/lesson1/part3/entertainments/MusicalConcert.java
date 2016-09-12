@@ -2,7 +2,7 @@
 public class MusicalConcert extends Entertainments {
                                 private String Genre;
                                 private String Performers;
-                                public String Venue;
+                                private String Venue;
 public String getGenre() {return Genre;}
 public void setGenre (String Genre) {
 	this.Genre = Genre;
