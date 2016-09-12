@@ -1,7 +1,7 @@
 
 public class FoodGoods extends CustomerGoods {
                                 private boolean Packing;
-                                public boolean Label;
+                                private boolean Label;
                                 private String Turnover;
 public boolean getPacking() {return Packing;}
 public void setPacking (boolean Packing) {
