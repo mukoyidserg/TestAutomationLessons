@@ -1,8 +1,19 @@
 
 public class MilitaryPrison extends Prison {
-                                public boolean Purpose;
+                                private boolean Purpose;
                                 private String Branch;
                                 private boolean Operation;
-private boolean InmType (boolean NewPurps) {Purpose = NewPurps}
-public boolean RePurpose (boolean NewPurp) {Purpose = NewPurp}
+public boolean getPurpose() {return Purpose;}
+public void setPurpose (boolean Purpose) {
+	this.Purpose = Purpose;
+} 
+public String getBranch() {return Branch;}
+public void setBranch (String Branch) {
+	this.Branch = Branch;
+}
+public boolean getOperation() {return Operation;}
+public void setOperation (boolean Operation) {
+	this.Operation = Operation;
+}
+
 }
