@@ -1,7 +1,7 @@
 
 public class Party extends Entertainments {
                                 private boolean Admission;
-                                public int AlcoVolume;
+                                private int AlcoVolume;
                                 private String Venue;
 public boolean getAdmission() {return Admission;}
 public void setAdmission (boolean Admission) {
