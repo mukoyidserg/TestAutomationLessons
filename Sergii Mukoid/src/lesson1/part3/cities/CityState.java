@@ -2,9 +2,20 @@ package lesson1.part3.cities;
 
 
 public class CityState extends Cities {
-                                public boolean Sovereignty;
+                                private boolean Sovereignty;
                                 private String Currency;
                                 private int ConstCities;
-private int NewCity (int NewCity) {ConstCities = NewCities}  
-public boolean GiveSov (boolean NewSov) {Sovereignty = NewSov}  
+public boolean getSovereignty() {return Sovereignty;}
+public void setSovereignty (boolean Sovereignty) {
+	this.Sovereignty = Sovereignty;
+} 
+public String getCurrency() {return Currency;}
+public void setCurrency (String Currency) {
+	this.Currency = Currency;
+}
+public int getConstCities() {return ConstCities;}
+public void setConstCities (int ConstCities) {
+	this.ConstCities = ConstCities;
+}
+
 }
