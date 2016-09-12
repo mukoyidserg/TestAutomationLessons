@@ -2,10 +2,10 @@ package lesson1.part2;
 
 
 public class Cities {
-                                public int Population;
+                                private int Population;
                                 private int Area;
                                 private int Gdp;
-                                public int Divisions;
+                                private int Divisions;
                                 private int YearFound;
                                 private String Country;
                                 private String Name;
@@ -16,23 +16,40 @@ public int getPopul() {return Population;}
 public void setPopul (int Population) {
 	this.Population = Population;
 } 
-
 public int getArea() {return Area;}
 public void setArea (int Area) {
 	this.Area = Area;
 } 
-
-public int getArea() {return Area;}
-public void setArea (int Area) {
-	this.Area = Area;
+public int getGdp() {return Gdp;}
+public void setGdp (int Gdp) {
+	this.Gdp = Gdp;
 }
-// дома исправить ошибки в таком же духе
-private int DevelopEcon (int NewGdp) {Gdp = NewGdp;}
-private int Decay (int DecGdp) {Gdp = DecGdp;}
-private String ChangeCountry (string NewCountry) {Country = NewCountry;}
-public int ChangeDiv (string NewDiv) {Divisions = NewDiv;}
-public void IntrUtilities() {}
-public void IntrTransport() {}
-public int IncrPopul (int IncrPopul) {Population = IncrPopul;}
-public void Defend() {}
+public int getDivisions() {return Divisions;}
+public void setDivisions (int Divisions) {
+	this.Divisions = Divisions;
+}
+public int getYearFound() {return YearFound;}
+public void setYearFound (int YearFound) {
+	this.YearFound = YearFound;
+}
+public String getCountry() {return Country;}
+public void setCountry (String Country) {
+	this.Country = Country;
+}
+public String getName() {return Name;}
+public void setName (String Name) {
+	this.Name = Name;
+}
+public int getElevation() {return Elevation;}
+public void setElevation (int Elevation) {
+	this.Elevation = Elevation;
+}
+public int getPopulGrowth() {return PopulGrowth;}
+public void setPopulGrowth (int PopulGrowth) {
+	this.PopulGrowth = PopulGrowth;
+}
+public int getPopulDensity() {return PopulDensity;}
+public void setPopulDensity (int PopulDensity) {
+	this.PopulDensity = PopulDensity;
+}
 }
