@@ -1,8 +1,19 @@
 
 public class StreetFestival extends Entertainments {
-                                public String Theme;
+                                private String Theme;
                                 private String TradeFacilities;
                                 private int OrgParticipants;
-private String NewTradeFac (String NewFacil) { TradeFacilities = NewFacil}
-public String GetTheme() {return Theme;}  
+public String getTheme() {return Theme;}
+public void setTheme (String Theme) {
+	this.Theme = Theme;
+} 
+public String getTradeFacilities() {return TradeFacilities;}
+public void setTradeFacilities (String TradeFacilities) {
+	this.TradeFacilities = TradeFacilities;
+}
+public int getOrgParticipants() {return OrgParticipants;}
+public void setOrgParticipants (int OrgParticipants) {
+	this.OrgParticipants = OrgParticipants;
+}
+
 }
