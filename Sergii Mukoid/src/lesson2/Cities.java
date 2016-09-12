@@ -12,7 +12,7 @@ public class Cities {
 	private int populGrowth;
 	private int populDensity;
 	private int majorId;
-
+//if method has the name of some class, it is called 'constructor'
 	public Cities(int population, String name) {
 		this.population = population;
 		this.name = name;
@@ -67,7 +67,7 @@ public class Cities {
 		return divisions;
 	}
 
-	public void setYearFound(int population) {
+	public void setYearFound(int yearFound) {
 		this.yearFound = yearFound;
 	}
 

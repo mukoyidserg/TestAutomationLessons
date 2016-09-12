@@ -29,7 +29,7 @@ public void setSalary (int Salary) {
 	this.Salary = Salary;
 }
 public String getPosition() {return Position;}
-public void setPosition (int Position) {
+public void setPosition (String Position) {
 	this.Position = Position;
 }
 public String getDivision() {return Division;}
@@ -41,7 +41,7 @@ public void setSubordinates (int Subordinates) {
 	this.Subordinates = Subordinates;
 }
 public boolean getRelation() {return Relation;}
-public void setRelation (int Relation) {
+public void setRelation (boolean Relation) {
 	this.Relation = Relation;
 }
 public double getOwnership() {return Ownership;}

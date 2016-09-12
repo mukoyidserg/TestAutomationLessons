@@ -1,7 +1,7 @@
 package lesson1.part3.cities;
 
 
-public class GlobalCity extends Cities {
+public class GlobalCity extends lesson1.part2.Cities {
                                 private int Ranking;
                                 public String Driver;
                                 private String CityClass;

@@ -29,7 +29,7 @@ public void setType (String Type) {
 	this.Type = Type;
 }
 public int getMaxLoudness() {return MaxLoudness;}
-public void setMaxLoudness (String MaxLoudness) {
+public void setMaxLoudness (int MaxLoudness) {
 	this.MaxLoudness = MaxLoudness;
 }
 public int getSize() {return Size;}
@@ -38,7 +38,7 @@ public void setSize (int Size) {
 }
 public int getYearMake() {return YearMake;}
 public void setYearMake (int YearMake) {
-	this.MaxLoudness = MaxLoudness;
+	this.YearMake = YearMake;
 }
 public String getTuning() {return Tuning;}
 public void setTuning (String Tuning) {
@@ -49,7 +49,7 @@ public void setMaker (String Maker) {
 	this.Maker = Maker;
 }
 public int getWeight() {return Weight;}
-public void setWeight (String Weight) {
+public void setWeight (int Weight) {
 	this.Weight = Weight;
 }
 

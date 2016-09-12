@@ -1,7 +1,7 @@
 package lesson1.part3.cities;
 
 
-public class InnerCity extends Cities {
+public class InnerCity extends lesson1.part2.Cities {
                                 private String MainCity;
                                 public String PopulationEcon;
                                 private int CentreDistricts;

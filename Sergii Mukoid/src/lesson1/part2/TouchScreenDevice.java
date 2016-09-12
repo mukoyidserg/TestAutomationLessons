@@ -29,8 +29,8 @@ public void setBattery (int Battery) {
 	this.Battery = Battery;
 }
 public int getStorage() {return Storage;}
-public void setDisplay (int Display) {
-	this.Display = Display;
+public void setStorage (int Storage) {
+	this.Storage = Storage;
 }
 public int getCpuFrequency() {return CpuFrequency;}
 public void setCpuFrequency (int CpuFrequency) {

@@ -1,8 +1,8 @@
-package lesson1.part2;
+package lesson2.classextensionwithobjects;
 
 
 public class Prisons {
-                                private int Inmates;
+                                private String prisonName;
                                 private int Guards;
                                 private String Security;
                                 private int Units;
@@ -12,16 +12,21 @@ public class Prisons {
                                 private String Location;
                                 private String Institution;
                                 private boolean Legality;
-public int getInmates() {return Inmates;}
-public void setInmates (int Inmates) {
-	this.Inmates = Inmates;
+public Prisons(String prisonName) {
+	this.prisonName = prisonName;			
 }
+
+public String getPrisonName() {return prisonName;}
+public void setPrisonName (String prisonName) {
+	this.prisonName = prisonName;
+}
+
 public int getGuards() {return Guards;}
 public void setGuards (int Guards) {
 	this.Guards = Guards;
 }
 public String getSecurity() {return Security;}
-public void setSecurity (int Security) {
+public void setSecurity (String Security) {
 	this.Security = Security;
 }
 public int getUnits() {return Units;}
@@ -37,7 +42,7 @@ public void setFacilities (String Facilities) {
 	this.Facilities = Facilities;
 }
 public boolean getOperation() {return Operation;}
-public void setOperation (String Operation) {
+public void setOperation (boolean Operation) {
 	this.Operation = Operation;
 }
 public String getLocation() {return Location;}
