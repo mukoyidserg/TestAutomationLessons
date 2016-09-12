@@ -2,7 +2,13 @@
 public class WoodwindInstruments extends MusicalInstruments {
                                 private String InstrType;
                                 private String BellShape;
-                                private String NotesChange;
-private void VibrateAir() {}
-public void BlowAir() {}
+public String getInstrType() {return InstrType;}
+public void setInstrType (String InstrType) {
+	this.InstrType = InstrType;
+} 
+public String getBellShape() {return BellShape;}
+public void setBellShape (String BellShape) {
+	this.BellShape = BellShape;
+}
+
 }
