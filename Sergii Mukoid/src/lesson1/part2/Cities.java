@@ -12,6 +12,7 @@ public class Cities {
                                 private int Elevation;
                                 private int PopulGrowth;
                                 private int PopulDensity;
+                                //comment
 public int getPopul() {return Population;}
 public void setPopul (int Population) {
 	this.Population = Population;
