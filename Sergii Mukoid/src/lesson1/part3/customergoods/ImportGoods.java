@@ -1,5 +1,7 @@
+package lesson1.part3.customergoods;
 
-public class ImportGoods extends CustomerGoods {
+
+public class ImportGoods extends lesson1.part2.CustomerGoods {
                                 public String ForDistributor;
                                 private String Regulations;
                                 private int DeliveryTime;

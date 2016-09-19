@@ -1,5 +1,7 @@
+package lesson1.part3.customergoods;
 
-public class NonFoodGoods extends CustomerGoods {
+
+public class NonFoodGoods extends lesson1.part2.CustomerGoods {
                                 public String Precautions;
                                 private String ReturnPolicy;
                                 private String Turnover;

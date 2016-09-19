@@ -1,5 +1,7 @@
+package lesson1.part3.entertainments;
 
-public class Party extends Entertainments {
+
+public class Party extends lesson1.part2.Entertainments {
                                 private boolean Admission;
                                 private int AlcoVolume;
                                 private String Venue;

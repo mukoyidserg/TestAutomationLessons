@@ -1,5 +1,7 @@
+package lesson1.part3.touchscreendevices;
 
-public class SmartWatch extends TouchScreenDevice {
+
+public class SmartWatch extends lesson1.part2.TouchScreenDevice {
                                 private String Connectivity;
                                 private boolean Camera;
                                 private int WaterResist;

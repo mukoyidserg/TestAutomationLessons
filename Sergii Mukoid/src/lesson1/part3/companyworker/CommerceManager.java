@@ -1,5 +1,7 @@
+package lesson1.part3.companyworker;
 
-public class CommerceManager extends CompanyWorker {
+
+public class CommerceManager extends lesson1.part2.CompanyWorker {
                                 public String Goods;
                                 private boolean Level;
                                 private int Contracts;

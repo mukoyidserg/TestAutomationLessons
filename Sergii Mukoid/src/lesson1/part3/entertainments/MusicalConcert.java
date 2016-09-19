@@ -1,5 +1,7 @@
+package lesson1.part3.entertainments;
 
-public class MusicalConcert extends Entertainments {
+
+public class MusicalConcert extends lesson1.part2.Entertainments {
                                 private String Genre;
                                 private String Performers;
                                 private String Venue;

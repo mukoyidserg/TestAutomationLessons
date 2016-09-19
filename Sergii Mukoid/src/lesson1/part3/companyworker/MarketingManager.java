@@ -1,5 +1,7 @@
+package lesson1.part3.companyworker;
 
-public class MarketingManager extends CompanyWorker {
+
+public class MarketingManager extends lesson1.part2.CompanyWorker {
                                 private String Sphere;
                                 private int Budget;
                                 private int Kpi;

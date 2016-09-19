@@ -1,5 +1,7 @@
+package lesson1.part3.prisons;
 
-public class SupermaxPrison extends Prison {
+
+public class SupermaxPrison extends lesson1.part2.Prisons {
                                 private int SuperUnits;
                                 private boolean Supermax;
                                 private boolean ImprisonTime;

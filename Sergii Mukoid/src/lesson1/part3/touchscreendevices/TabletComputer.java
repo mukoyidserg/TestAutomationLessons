@@ -1,5 +1,7 @@
+package lesson1.part3.touchscreendevices;
 
-public class TabletComputer extends TouchScreenDevice {
+
+public class TabletComputer extends lesson1.part2.TouchScreenDevice {
                                 private boolean Keyboard;
                                 private String SizeClass;
                                 private boolean Handwriting;
