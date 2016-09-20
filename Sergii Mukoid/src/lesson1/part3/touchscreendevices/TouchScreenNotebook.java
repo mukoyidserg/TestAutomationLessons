@@ -1,5 +1,7 @@
+package lesson1.part3.touchscreendevices;
 
-public class TouchscreenNotebook extends TouchScreenDevice {
+
+public class TouchScreenNotebook extends lesson1.part2.TouchScreenDevice {
                                 private String VideoCard;
                                 private String PurposeType;
                                 private int NoChargeHours;

@@ -1,5 +1,7 @@
+package lesson1.part3.companyworker;
 
-public class TopLevelWorker extends CompanyWorker {
+
+public class TopLevelWorker extends lesson1.part2.CompanyWorker {
                                 private String OpsSphere;
                                 public int AddRenumeration;
                                 private String Projects;

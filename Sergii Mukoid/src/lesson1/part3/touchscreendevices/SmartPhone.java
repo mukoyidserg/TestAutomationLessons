@@ -1,5 +1,7 @@
+package lesson1.part3.touchscreendevices;
 
-public class SmartPhone extends TouchScreenDevice {
+
+public class SmartPhone extends lesson1.part2.TouchScreenDevice {
                                 private int SimCards;
                                 private String Standards;
                                 private String Restrictions;

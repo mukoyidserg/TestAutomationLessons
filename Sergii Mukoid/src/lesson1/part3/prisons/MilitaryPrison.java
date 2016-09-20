@@ -1,5 +1,7 @@
+package lesson1.part3.prisons;
 
-public class MilitaryPrison extends Prison {
+
+public class MilitaryPrison extends lesson1.part2.Prisons {
                                 private boolean Purpose;
                                 private String Branch;
                                 private boolean Operation;

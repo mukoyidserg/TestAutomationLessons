@@ -1,5 +1,7 @@
+package lesson1.part3.musicalinstruments;
 
-public class BrassInstruments extends MusicalInstruments {
+
+public class BrassInstruments extends lesson1.part2.MusicalInstruments {
                                 private String Family;
                                 private int BoreDiam;
                                 private String BoreForm;

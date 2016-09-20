@@ -1,5 +1,7 @@
+package lesson1.part3.musicalinstruments;
 
-public class PercussionInstruments extends MusicalInstruments {
+
+public class PercussionInstruments extends lesson1.part2.MusicalInstruments {
                                 private String SoundMethod;
                                 private String MusicFunction;
                                 private boolean Spread;

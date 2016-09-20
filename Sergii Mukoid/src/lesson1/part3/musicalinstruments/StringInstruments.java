@@ -1,5 +1,7 @@
+package lesson1.part3.musicalinstruments;
 
-public class StringInstruments extends MusicalInstruments {
+
+public class StringInstruments extends lesson1.part2.MusicalInstruments {
                                 private int Strings;
                                 private String StringMaterial;
                                 private String StringsLocation;

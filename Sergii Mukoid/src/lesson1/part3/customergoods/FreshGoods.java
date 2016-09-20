@@ -1,5 +1,7 @@
+package lesson1.part3.customergoods;
 
-public class FreshGoods extends CustomerGoods {
+
+public class FreshGoods extends lesson1.part2.CustomerGoods {
                                 private boolean GoodsType;
                                 private double FreshnessPercentage;
                                 private boolean DeliveryType;

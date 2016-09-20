@@ -1,5 +1,7 @@
+package lesson1.part3.musicalinstruments;
 
-public class WoodwindInstruments extends MusicalInstruments {
+
+public class WoodwindInstruments extends lesson1.part2.MusicalInstruments {
                                 private String InstrType;
                                 private String BellShape;
 public String getInstrType() {return InstrType;}

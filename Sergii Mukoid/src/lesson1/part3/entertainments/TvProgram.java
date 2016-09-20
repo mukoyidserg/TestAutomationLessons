@@ -1,5 +1,7 @@
+package lesson1.part3.entertainments;
 
-public class TvProgram extends Entertainments {
+
+public class TvProgram extends lesson1.part2.Entertainments {
                                 private String Channel;
                                 private String Genre;
                                 private boolean ViewModel;

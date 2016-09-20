@@ -1,5 +1,7 @@
 package lesson2.classextensionwithobjects;
 
+import java.net.URL;
+
 public class Oligarkh extends Man {
 	private Money valuables;
 	private Prisons prison;
@@ -23,7 +25,7 @@ public class Oligarkh extends Man {
 	public static void main(String[] args) {
 		
 		Oligarkh romanAbramovich = new Oligarkh();
-		Money romanAbramovichMoney = new Money(100000000, "USD");
+		Money romanAbramovichMoney = new Money(100000000, "USD", "https://en.wikipedia.org/wiki/United_States_dollar#/media/File:Onedolar2009series.jpg");
 		
 		romanAbramovich.setValuables(romanAbramovichMoney);
 		
@@ -39,6 +41,7 @@ public class Oligarkh extends Man {
 				"\nPrison: "+romanAbramovich.getPrison().getPrisonName()+
 				"\nMoney: "+romanAbramovich.getValuables().getValue()+
 				" "+romanAbramovich.getValuables().getCurrencyName());
+		romanAbramovich.getValuables().getCurrencyPic();
 	}
 
 }

@@ -1,5 +1,7 @@
+package lesson1.part3.entertainments;
 
-public class StreetFestival extends Entertainments {
+
+public class StreetFestival extends lesson1.part2.Entertainments {
                                 private String Theme;
                                 private String TradeFacilities;
                                 private int OrgParticipants;

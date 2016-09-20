@@ -1,5 +1,7 @@
+package lesson1.part3.companyworker;
 
-public class LogicticsManager extends CompanyWorker {
+
+public class LogisticsManager extends lesson1.part2.CompanyWorker {
                                 private String LogArea;
                                 private int Effectiveness;
                                 public String Zone;
@@ -12,7 +14,7 @@ public void setEffectiveness (int Effectiveness) {
 	this.Effectiveness = Effectiveness;
 }
 public String getZone() {return Zone;}
-public void setZone (int Zone) {
+public void setZone (String Zone) {
 	this.Zone = Zone;
 }
 
