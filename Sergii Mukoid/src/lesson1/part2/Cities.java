@@ -15,6 +15,7 @@ public class Cities {
                                 //comment
 public int getPopul() {return Population;}
 public void setPopul (int Population) {
+	
 	this.Population = Population;
 } 
 public int getArea() {return Area;}
