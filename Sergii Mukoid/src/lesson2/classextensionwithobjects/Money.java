@@ -5,9 +5,9 @@ import java.net.URL;
 public class Money {
 	private int value;
 	private String currencyName;
-	private URL currencyPic;
+	private String currencyPic;
 	
-public Money(int value, String currencyName, URL currencyPic) {
+public Money(int value, String currencyName, String currencyPic) {
 	this.value = value;
 	this.currencyName = currencyName;
 	this.currencyPic = currencyPic;
@@ -20,7 +20,7 @@ public Money(int value, String currencyName) {
 
 public int getValue() {return value;}
 public String getCurrencyName() {return currencyName;}
-public URL getCurrencyPic() {return currencyPic;}
+public String getCurrencyPic() {return currencyPic;}
 
 /*public Image showPicture(URL link) {
 	try {
