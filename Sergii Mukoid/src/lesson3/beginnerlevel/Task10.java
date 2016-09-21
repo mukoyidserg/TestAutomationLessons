@@ -18,6 +18,13 @@ public class Task10 {
 			}
 		}
 	}
+
+	
+	
+//Implement this task with array using any SINGLE loop.
+//In addition, use dynamic arrays. Read about them in Java.
+	
+//Alternatively use 'flag' variable, which changes direction after half of the loop (IF).
 	
 	public static void main(String[] args) {
 		Task10 myInstance = new Task10();
