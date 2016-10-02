@@ -1,7 +1,7 @@
 package lesson3.beginnerlevel;
 
 public class Task10 {
-	public void starPrint (int a) {
+	public void starPrintTwoLoops (int a) {
 		if (a<1 || a>9) System.out.println("Wrong number of characters");
 		else {
 			for (int i = 1; i <= a; i++) {
@@ -19,7 +19,20 @@ public class Task10 {
 		}
 	}
 
-	
+	public void starPrintOneLoop (int a) {
+		if (a<1 || a>9) System.out.println("Wrong number of characters");
+		else {
+			int flag =1;
+			for (int i = 1; i <= 2*a-1; i++) {
+				for (int j = 1; j <= flag; j++) {
+				System.out.print("*");
+				}
+				flag = (i < a) ? flag+1 : flag-1;
+				System.out.print("\n");
+			}
+			
+		}
+	}
 	
 //Implement this task with array using any SINGLE loop.
 //In addition, use dynamic arrays. Read about them in Java.
@@ -28,7 +41,7 @@ public class Task10 {
 	
 	public static void main(String[] args) {
 		Task10 myInstance = new Task10();
-		myInstance.starPrint(5);
+		myInstance.starPrintOneLoop(5);
 
 	}
 
