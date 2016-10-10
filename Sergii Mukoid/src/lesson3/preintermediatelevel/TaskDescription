@@ -1,0 +1,15 @@
+Pre-intermediate level
+1.A couple is going to go to the cinema. That's makes sense, if both of them have the same mood. There are two boolean parameters heSmile and sheSmile which indicate if each is smiling or not. Write a method which returns True if they're eventually going to go to the cinema, or  False otherwise.
+2.Given a string. Write a method which swaps first and last characters and returns a new modified string.
+3.Given 2 integers, a and b. Write a method which returns true if one if them is 21 or if their sum is 21.
+4.Given an array of integers. Write a method which prints the second half of the array. Include the middle element to output, if the array has odd number of elements
+5.You don't like number 7 and number 9. Write a method which checks input array and returns True if the array doesn't contain your unloved numbers
+6.Given an array of integers. Write a method which calculates sum of all elements and arithmetic average of them.
+7.Given an array of integers. Write a method which finds max and min elements in it and multiplies them by 2.
+8.Write a method which calculates a sum of first 100 odd elements of Fibonacci sequence.
+9.Write a method which prints multiplication table for the input number. 
+10.Find the nine adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
+11. Given an array of integer positive numbers. For example, {4, 6, 0, 1, 2, 3, 1, 9}, but it can be any random. Write Java-program which returns True, if sequence {1, 2, 3} appears somewhere in the array. Provide additional boundary checks.
+12. Imagine that you have a special skill which allows to calculate amount of digits in any integer positive number. For example, if number is 12345, amount=15. Write a method which checks your superpower for any hard-coded number.
+13. Write a method for calculating quadratic equation. It takes a, b, c numbers and print the solution
+14. Write a method which takes a word and prints it like a diagonal matrix.

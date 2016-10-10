@@ -52,7 +52,7 @@ public class FillArrayWithASnake {
 	
 	public static void main(String[] args) {
 		FillArrayWithASnake myInstance = new FillArrayWithASnake();
-        myInstance.ArraySnakeFill(25);
+        myInstance.ArraySnakeFill(100);
 	}
 
 }

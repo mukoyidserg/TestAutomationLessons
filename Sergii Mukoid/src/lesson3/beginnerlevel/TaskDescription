@@ -1,0 +1,11 @@
+Beginner level
+1.Given an array of integer numbers. Create a method (program) which returns a new one where each element is multiplied by 3
+2.Given two integers, x and y. Create a method (program) which returns True if one if them is 10 or if their sum is 10
+3.Create a method (program) which returns True if the given non-negative number is a multiple of 3 or a multiple of 5
+4.Given an array of integers. Create a method (program) which takes two arguments - this array and number that you are looking for - and returns quantity of this number in the array
+5.There are several marks in the school: from 1 to 5 (the highest). Create a method (program) which takes a mark and return your result (for ex. "Excellent", "Good", "Failed" etc.). Please do not use if...else condition
+6.Print all even numbers from range (0..50). Try to solve this in more than one way
+7.Given an array of integers. Find and print the max element in it
+8.Given a string and an int n. Return a string made of the first n characters of the string, followed by the first n-1 characters of the string, and so on.
+9.Create method which takes two integers (a and b), performs their division (a/b) and outputs accurate result of division (this means the result should have a decimal part, if any)
+10.Create method which gets a number form 1 to 9 (for example 4) and then prints the 'stars' output

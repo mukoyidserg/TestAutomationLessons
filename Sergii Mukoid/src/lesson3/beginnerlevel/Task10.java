@@ -41,7 +41,7 @@ public class Task10 {
 	
 	public static void main(String[] args) {
 		Task10 myInstance = new Task10();
-		myInstance.starPrintOneLoop(5);
+		myInstance.starPrintOneLoop(6);
 
 	}
 

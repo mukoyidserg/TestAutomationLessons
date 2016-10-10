@@ -1,5 +1,4 @@
 package lesson3.preintermediatelevel;
-import java.lang.*;
 
 public class Task13 {
 

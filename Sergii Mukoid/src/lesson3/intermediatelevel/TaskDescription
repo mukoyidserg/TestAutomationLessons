@@ -1,0 +1,9 @@
+Intermediate (middle) level
+1.Superpower (complicated). Imagine that you have a special skill which allows to calculate amount of digits in any integer positive number. For example, if number is 12345, amount=15. Write a program which checks your superpower when user enters necessary number via console (in IDE). Use error guessing technique for provide additional checks
+2. Lucky tickets. As you may know tram tickets have numbering in the range from 000 001 to 999 999. Many people try to find a lucky ticket, where the sum of the first three digits = the sum of the second three digits. For example, 205 151 is a lucky ticket. Write a program for calculating of how many lucky tickets people can find in the one roll
+3.Reversed array. Write a method which takes an array and returns inverted one
+4.Sum of numbers in the string. Given a string. Write a method which returns the sum of the numbers appearing in the string, ignoring all other characters. Provide all necessary checks. 
+5.Temperature converter. Write a program for temperature converter between Celsius and Kelvin and vice versa. Use OOP for realizing separate class with appropriate methods and call them in the main class of your program
+6.The longest word. Write a method which returns the longest word in the input string. Compare only letters separated by space symbol
+7.Addition of matrices. Add two matrix according to the common math rules and print the output to the console
+8.CamelCaseSeparator. Some testing frameworks can read names of test methods and include them to the report like a beautiful sentence.​ As you know, we use camelCaseNamingPolicy during writing our tests. Please write a method which takes a test name and returns beautiful sentence for report.
