@@ -17,7 +17,7 @@ import jxl.write.WriteException;
 //The tasks' descriptions are read from .txt file. (grep java)
 
 public class Runner {
-	String descriptionPath = "C://Users//SERG//Downloads//TestAutomationLessons//Sergii Mukoid//src//lesson3//beginnerlevel//TaskDescription";
+	String descriptionPath = "C://Users//Пользователь//git//SM_TestAutomationLessons//Sergii Mukoid//src//lesson3//beginnerlevel//TaskDescription";
 	String writePath = "C://Users//SERG//Desktop//Tasks.xls";
 
 	public void allBeginnerTaskDisplay() {
@@ -47,9 +47,7 @@ public class Runner {
 		}
 	}
 
-	public void beginnerTaskRun() throws BiffException, WriteException, InstantiationException, IllegalAccessException,
-			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException,
-			ClassNotFoundException {
+	public void beginnerTaskRun() throws IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException  {
 		try {
 			Scanner reader = new Scanner(System.in);
 			System.out.println("Which task do you want to run? ");
@@ -67,6 +65,7 @@ public class Runner {
 			System.out.println("Running the chosen task... ");
 			String taskName = "lesson3.beginnerlevel.Task" + number;
 			Class.forName(taskName).getMethod("main", String[].class).invoke(null, (Object) null);
+		reader.close();
 		} catch (ClassNotFoundException err) {
 			System.out.println("No task found");
 		}
