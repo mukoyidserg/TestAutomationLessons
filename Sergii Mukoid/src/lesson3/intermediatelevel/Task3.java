@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Task3 {
 
+	//Object as parameter? Passing as parameter an object, contrary to passing a predefined type.
 	public void reverseArray(int[] arrayToReverse) {
 		int[] reversedArray = new int [arrayToReverse.length];
 		for (int i = 0; i <= arrayToReverse.length-1; i++) {
