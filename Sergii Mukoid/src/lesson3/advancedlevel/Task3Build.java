@@ -36,11 +36,11 @@ public class Task3Build {
 
 	public void readTestResults(String inputFile) throws BiffException, IOException {
 		Sheet sheetWithInput = Workbook.getWorkbook(new File(inputFile)).getSheet(0);
-		this.passedTestCases = Integer.parseInt(sheetWithInput.getCell(1, 0).getContents());
-		this.failedTestCases = Integer.parseInt(sheetWithInput.getCell(1, 1).getContents());
-		this.totalBugs = Integer.parseInt(sheetWithInput.getCell(1, 2).getContents());
-		this.highPriorityBugs = Integer.parseInt(sheetWithInput.getCell(1, 3).getContents());
-		this.blockerCriticalBugs = Integer.parseInt(sheetWithInput.getCell(1, 4).getContents());
+		passedTestCases = Integer.parseInt(sheetWithInput.getCell(1, 0).getContents());
+		failedTestCases = Integer.parseInt(sheetWithInput.getCell(1, 1).getContents());
+		totalBugs = Integer.parseInt(sheetWithInput.getCell(1, 2).getContents());
+		highPriorityBugs = Integer.parseInt(sheetWithInput.getCell(1, 3).getContents());
+		blockerCriticalBugs = Integer.parseInt(sheetWithInput.getCell(1, 4).getContents());
 	}
 
 	public void buildAssesment(int passedTestCases, int failedTestCases, int totalBugs, int highPriorityBugs,
