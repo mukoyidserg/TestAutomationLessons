@@ -38,7 +38,7 @@ public class SeleniumIDETestCase1 {
       verificationErrors.append(e.toString());
     }
     driver.findElement(By.linkText("Java - Numbers")).click();
-    assertEquals("Java - Numbers Class", driver.findElement(By.cssSelector("div.col-md-7.middle-col > h1")).getText());
+    assertEquals("Java Tutorial", driver.findElement(By.cssSelector("div.col-md-7.middle-col > h1")).getText());
   }
 
   @After
