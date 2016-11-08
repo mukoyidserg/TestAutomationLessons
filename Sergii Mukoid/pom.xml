@@ -3,6 +3,30 @@
   <groupId>SergiiMukoid</groupId>
   <artifactId>SergiiMukoid</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <dependencies>
+   <dependency>
+     <groupId>junit</groupId>
+     <artifactId>junit</artifactId>
+     <version>4.0</version>
+     <scope>test</scope>
+   </dependency>
+   <dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.8</version>
+  <scope>test</scope>
+  <dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0</version>
+		</dependency>
+</dependency>
+   <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.0.1</version>
+    </dependency> 
+ </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
