@@ -19,7 +19,7 @@ public class SeleniumIDETestCase1 {
   @SuppressWarnings("deprecation")
 @Before
   public void setUp() throws Exception {
-	  System.setProperty("webdriver.gecko.driver", "C://Users//SERG//Downloads//TestAutomationLessons//geckodriver.exe");
+	  System.setProperty("webdriver.gecko.driver", "C://Users//Пользователь//git//TestAutomationLessons//Sergii Mukoid//src//lesson5//geckodriver.exe");
 	  DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 	  capabilities.setCapability("marionette", true);
 	  driver = new MarionetteDriver(capabilities); 

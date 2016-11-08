@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.MarionetteDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
-public class SeleniumIDETestCase2 {
+public class selenium_tc1 {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -22,34 +22,28 @@ public class SeleniumIDETestCase2 {
 	  DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 	  capabilities.setCapability("marionette", true);
 	  driver = new MarionetteDriver(capabilities); 
-    baseUrl = "https://www.google.com.ua/";
+    baseUrl = "http://www.tutorialspoint.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
   @Test
-  public void testSeleniumIDETestCase2() throws Exception {
-    driver.get(baseUrl + "/search?q=mortage+calculator&ie=utf-8&oe=utf-8&gws_rd=cr&ei=shQhWMCYO8aysQHHxrbACA");
-    driver.findElement(By.linkText("Mortgage Calculator")).click();
-    driver.findElement(By.name("param[homevalue]")).clear();
-    driver.findElement(By.name("param[homevalue]")).sendKeys("3100000");
-    driver.findElement(By.id("loanamt")).clear();
-    driver.findElement(By.id("loanamt")).sendKeys("250078");
-    driver.findElement(By.id("intrstsrate")).clear();
-    driver.findElement(By.id("intrstsrate")).sendKeys("15");
-    driver.findElement(By.id("loanterm")).clear();
-    driver.findElement(By.id("loanterm")).sendKeys("7");
-    new Select(driver.findElement(By.name("param[start_month]"))).selectByVisibleText("Jan");
-    new Select(driver.findElement(By.name("param[start_year]"))).selectByVisibleText("2017");
-    driver.findElement(By.id("hoi")).clear();
-    driver.findElement(By.id("hoi")).sendKeys("100050");
-    driver.findElement(By.name("cal")).click();
-    
-    assertEquals("$1,162,500.00", driver.findElement(By.xpath("//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[3]/div[2]/div[2]/div[3]/div[2]/h3")).getText());
+  public void testSerg() throws Exception {
+    driver.get(baseUrl + "/");
+    driver.findElement(By.linkText("Learn Java")).click();
+    driver.findElement(By.linkText("Java - Numbers")).click();
+    try {
+        assertEquals("Java - Numbers Class", driver.findElement(By.cssSelector("div.col-md-7.middle-col > h1")).getText());
+      } catch (Error e) {
+        System.out.println("Тест не прошел, но вы держитесь там");
+        System.out.println(e);
+      }
+    assertEquals("Java Tutorial", driver.findElement(By.cssSelector("li.heading")).getText());
+    driver.quit();
   }
 
   @After
   public void tearDown() throws Exception {
-    //driver.quit();
+    driver.quit();
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {
       fail(verificationErrorString);
