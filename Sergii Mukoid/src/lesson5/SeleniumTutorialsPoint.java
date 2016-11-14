@@ -18,29 +18,26 @@ import org.openqa.selenium.firefox.MarionetteDriver;
 import org.openqa.selenium.*;
 import static org.openqa.selenium.OutputType.*;
 
-public class SeleniumBuilderTestCase1 {
+public class SeleniumTutorialsPoint {
     MarionetteDriver wd;
     
     @Before
-    public void setUp() throws Exception {
-    	System.setProperty("webdriver.gecko.driver", "C://Users//SERG//Downloads//TestAutomationLessons//geckodriver.exe");
-   	  DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-   	  capabilities.setCapability("marionette", true);
-   	  wd = new MarionetteDriver(capabilities); 
-        //wd = new FirefoxDriver();
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-    }
-    
+	public void setUp() throws Exception {
+		System.setProperty("webdriver.gecko.driver",
+				"C://Users//SERG//Downloads//TestAutomationLessons//Sergii Mukoid//src//lesson5//geckodriver.exe");
+		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		capabilities.setCapability("marionette", true);
+		wd = new MarionetteDriver(capabilities);
+		// wd = new FirefoxDriver();
+		wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+	}
+
     @Test
-    public void SeleniumBuilderTestCase1() {
-        wd.get("resource://vkd/data/newtab/index.html");
-        wd.get("https://www.tutorialspoint.com/");
+    public void serg2() {
+        wd.get("http://www.tutorialspoint.com/");
         wd.findElement(By.linkText("Learn Java")).click();
-        if (!wd.findElement(By.xpath("//div[3]/div[1]/div/div[1]/aside/ul[1]/li[1]")).getText().equals("Java Tutorial")) {
-            System.out.println("verifyText failed");
-        }
         wd.findElement(By.linkText("Java - Numbers")).click();
-        assertTrue(wd.findElement(By.tagName("html")).getText().contains("Java - Numbers"));
+        assertEquals("Java Tutorial", wd.findElement(By.cssSelector("li.heading")).getText());
     }
     
     @After

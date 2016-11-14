@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.MarionetteDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
-public class Serg3 {
+public class SeleniumTaxCalc {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -19,7 +19,7 @@ public class Serg3 {
   @Before
   public void setUp() throws Exception {
 	  System.setProperty("webdriver.gecko.driver",
-				"C://Users//ѕользователь//git//TestAutomationLessons//Sergii Mukoid//src//lesson5//geckodriver.exe");
+				"C://Users//SERG//Downloads//TestAutomationLessons//Sergii Mukoid//src//lesson5//geckodriver.exe");
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("marionette", true);
 		driver = new MarionetteDriver(capabilities);
@@ -33,7 +33,7 @@ public class Serg3 {
 		    driver.findElement(By.id("ctl00_ContentPlaceHolder1_txtIncome")).clear();
 		    driver.findElement(By.id("ctl00_ContentPlaceHolder1_txtIncome")).sendKeys("10000");
 		    driver.findElement(By.id("ctl00_ContentPlaceHolder1_butSubmit")).click();
-		    assertEquals("И2,010.00", driver.findElement(By.id("ctl00_ContentPlaceHolder1_lblCYTaxLowerRate")).getText());
+		    assertEquals("И2,000.00", driver.findElement(By.id("ctl00_ContentPlaceHolder1_lblCYTaxLowerRate")).getText());
 		  }
 
 		  @After
